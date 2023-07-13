@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desviación estándar</title>
+</head>
+<body>
+    <header>
+        <h1>Desviación estándar 🤩</h1>
+    </header>
+
+    <main>
+        <section>
+            <p>Parce, mete un número en la cajita y dale al botón 'Añada el número a la lista'. 
+                Cuando ya hayas metido todos los números que necesitas pa' hacer el cálculo, dale al botón 'Calcular desviación estándar'. 
+                Si quieres hacer otro cálculo, borra los resultados con el botón 'Borrar resultados'. 
+                ¡Así de fácil, compa! 👍🏻
+            </p>
+            <form>
+                <input type="number" placeholder="Ingrese los números" id="inputNumber" autofocus />
+                <button type="button" id="addNumber">Añada el número a la lista</button>
+                <button type="button" id="calculate">Calcular desviación estándar</button>
+            </form>
+
+            <p id="numbersText">Números: </p>
+            <p id="deviationText">Desviación estándar: </p>
+
+            <button id="cleanResults">Borrar resultados</button>
+            
+            <a href="index.html">Regresar</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Derechos de autor &copy; 2023 Julián Alberto Uribe Gómez 👨🏻‍💻</p>
+    </footer>
+
+    <script src="desvest.js"></script>
+</body>
+</html>
