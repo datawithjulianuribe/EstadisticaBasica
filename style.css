@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: Arial, sans-serif;
-    background-color: #abcef9;
+    background-color: #aeeab3;
     color: #333333;
 }
 
@@ -28,7 +28,7 @@ button {
     margin: 10px auto;
     display: block;
     padding: 10px 24px;
-    background-color: #3cacf6;
+    background-color: #77b87e;
     border-radius: 12px;
     border: none;
     color: #ffffff;
@@ -36,7 +36,7 @@ button {
 }
 
 footer {
-    background-color: #659ffc;
+    background-color: #5faef2;
     color: #fff;
     padding: 20px;
     text-align: center;
