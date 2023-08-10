@@ -1,13 +1,19 @@
 body {
     text-align: center;
-    font-family: Arial, sans-serif;
-    background-color: #aeeab3;
+    font-family: 'Montserrat';
+    background-color: #011C5B;
     color: #333333;
 }
 
 h1 {
-    color: #050505;
+    color: #ffffff;
+    font-family: 'Montserrat';
     text-align: center;
+}
+
+h2 {
+    color: #050505;
+    font-family: 'Montserrat';
 }
 
 section {
@@ -16,52 +22,62 @@ section {
     margin-bottom: 20px;
 }
 
+
+label, input {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
 input[type="number"] {
     font-size: 15px;
+    font-family: 'Montserrat';
     padding: 10px 24px;
     border: 1px solid #cccccc;
     width: 160px;
 }
 
-/*button {
+button {
     font-size: 15px;
+    font-family: 'Montserrat';
     margin: 10px auto;
     display: block;
     padding: 10px 24px;
-    background-color: #77b87e;
+    border: 0;
     border-radius: 12px;
-    border: none;
+    background-color: #2ba8fb;
     color: #ffffff;
-    cursor: pointer;
-}*/
-
-button {
-  background: #FBCA1F;
-  font-family: inherit;
-  padding: 0.6em 1.3em;
-  font-weight: 900;
-  font-size: 18px;
-  border: 3px solid black;
-  border-radius: 0.4em;
-  box-shadow: 0.1em 0.1em;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
-
+  
 button:hover {
-  transform: translate(-0.05em, -0.05em);
-  box-shadow: 0.15em 0.15em;
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}
+  
+button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
 }
 
-button:active {
-  transform: translate(0.05em, 0.05em);
-  box-shadow: 0.05em 0.05em;
+.image {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 footer {
-    background-color: #5faef2;
-    color: #fff;
+    font-family: 'Montserrat';
+    background-color: #C8C9C7;
+    color: #000000;
     padding: 20px;
     text-align: center;
     width: 100%;
-    position: fixed;
     bottom: 0;
 }
