@@ -81,3 +81,20 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    height: 100px; /* Ajusta la altura del contenedor según tus necesidades */
+    /* background-color: #f0f0f0; Color de fondo para ejemplificar */
+}
+
+.container img {
+    width: 100px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto;
+    margin-bottom: 10px; /* Espacio entre la imagen y el título */
+}
